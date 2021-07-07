@@ -1,0 +1,110 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/groupDetail/groupDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/creatGroup/creatGroup",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/friends/friends",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/social/social",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+
+		, {
+			"path": "pages/chat/input",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	    ,{
+            "path" : "pages/addFriend/addFriend",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/newFriend/newFriend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新的朋友",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#359908",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/tab/message.png",
+				"selectedIconPath": "static/tab/s_message.png",
+				"text": "微信"
+			},
+			{
+				"pagePath": "pages/friends/friends",
+				"iconPath": "./static/tab/friends.png",
+				"selectedIconPath": "static/tab/s_friends.png",
+				"text": "好友"
+
+			},
+			{
+				"pagePath": "pages/social/social",
+				"iconPath": "./static/tab/social.png",
+				"selectedIconPath": "static/tab/s_social.png",
+				"text": "朋友圈"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "./static/tab/my.png",
+				"selectedIconPath": "static/tab/s_my.png",
+				"text": "我的"
+
+			}
+		]
+	}
+}

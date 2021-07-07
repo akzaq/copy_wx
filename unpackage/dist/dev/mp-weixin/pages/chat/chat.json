@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "v-header": "/components/vHeader",
+    "input": "/pages/chat/input",
+    "more": "/pages/chat/more",
+    "emoji": "/pages/chat/emoji",
+    "audio": "/pages/chat/audio"
+  }
+}

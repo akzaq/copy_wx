@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "新的朋友",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "perch-top": "/components/perchTop",
+    "search": "/components/search",
+    "friend-block": "/pages/newFriend/friendBlock"
+  }
+}

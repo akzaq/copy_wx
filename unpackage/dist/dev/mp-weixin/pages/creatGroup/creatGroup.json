@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "v-header": "/components/vHeader",
+    "item-block": "/components/itemBlock",
+    "image-cropper": "/components/ling-imgcropper/ling-imgcropper"
+  }
+}

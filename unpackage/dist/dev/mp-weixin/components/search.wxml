@@ -1,0 +1,1 @@
+<view class="search"><image src="/static/header/search.png" mode="widthFix"></image><input type="text" placeholder="{{placeholder}}" data-event-opts="{{[['blur',[['search',['$event']]]],['input',[['__set_model',['','str','$event',[]]]]]]}}" value="{{str}}" bindblur="__e" bindinput="__e"/></view>

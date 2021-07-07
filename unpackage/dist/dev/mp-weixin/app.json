@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/groupDetail/groupDetail",
+    "pages/creatGroup/creatGroup",
+    "pages/chat/chat",
+    "pages/friends/friends",
+    "pages/social/social",
+    "pages/my/my",
+    "pages/chat/input",
+    "pages/addFriend/addFriend",
+    "pages/newFriend/newFriend"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#359908",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/tab/message.png",
+        "selectedIconPath": "static/tab/s_message.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/friends/friends",
+        "iconPath": "./static/tab/friends.png",
+        "selectedIconPath": "static/tab/s_friends.png",
+        "text": "好友"
+      },
+      {
+        "pagePath": "pages/social/social",
+        "iconPath": "./static/tab/social.png",
+        "selectedIconPath": "static/tab/s_social.png",
+        "text": "朋友圈"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./static/tab/my.png",
+        "selectedIconPath": "static/tab/s_my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "perch-top": "/components/perchTop"
+  },
+  "component": true
+}

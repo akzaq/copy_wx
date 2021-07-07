@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "chun-lei-popups": "/components/chunLei-popups/chunLei-popups",
+    "item-block": "/components/itemBlock",
+    "v-header": "/components/vHeader",
+    "search": "/components/search"
+  }
+}
